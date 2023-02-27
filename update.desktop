@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Update
+Type=Application
+Exec=sudo apt update -y && sudo apt upgrade -y && clear && echo 'The RPi has been updated'
+Categories=System;
+Icon=gnome-system
+Comment=Update the RPi
+Terminal=true
